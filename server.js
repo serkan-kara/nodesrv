@@ -9,6 +9,6 @@ app.use('/', (req, res, next) => {
 })
 
 const server = app.listen(
-    8290,
-    console.log('Server running on PORT 8290')
+    5000,
+    console.log('Server running on PORT 5000')
 )
